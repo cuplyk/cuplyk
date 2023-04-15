@@ -1,10 +1,17 @@
-# Hello there! 👋
+ ```#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
-</div>
 
-Hello, I'm Greg, a self-taught Python developer with a passion for creating practical solutions that make people's lives easier. I am constantly seeking out opportunities to learn and grow, and I'm always excited to take on new challenges.
+class SoftwareEngineer:
 
-If you have any questions or suggestions, please feel free to reach out to me.
-Thanks for stopping by, and have a great day! 🙂
+    def __init__(self):
+        self.name = "Zhenye Na"
+        self.role = "Software Engineer"
+        self.language_spoken = ["zh_CN", "en_US"]
+
+    def say_hi(self):
+        print("Thanks for dropping by, hope you find some of my work interesting.")
+
+
+me = SoftwareEngineer()
+me.say_hi() ```
