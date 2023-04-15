@@ -3,17 +3,17 @@
 # -*- coding: utf-8 -*-
 
 
-class SoftwareEngineer:
+class  WhoAmI:
 
     def __init__(self):
-        self.name = "Zhenye Na"
-        self.role = "Software Engineer"
-        self.language_spoken = ["zh_CN", "en_US"]
+        self.name = "greg"
+        self.role = "it technician"
+        self.language_spoken = ["ro_RO", "ru_RU", "it_IT", "en_EN"]
 
     def say_hi(self):
-        print("Thanks for dropping by, hope you find some of my work interesting.")
+        print("Thanks for stopping by, and have a great day! 🙂")
 
 
-me = SoftwareEngineer()
+me = WhoAmI()
 me.say_hi() 
 ```
